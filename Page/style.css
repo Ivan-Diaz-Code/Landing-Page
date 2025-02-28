@@ -127,23 +127,69 @@ body {
   align-items: center;
   background-color: #E5E7EB;
   padding-top: 72px;
+  padding-bottom: 72px;
   
   
 }
 .quote-section{
   display: flex;
   justify-content: center;
-  font: 36px;
+  font-size: 36px;
   font-style: italic;
+  font-weight: 100;
   color: #1f2937;
-  width: 350px;
+  width: 50%;
 }
 
 .quote-author{
-  display: flex;
-  justify-content: flex-end;
+  width: 50%;
   font-weight: bold;
-  width: 350px;
+  text-align: end;
+}
+
+.content-four{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 48px 0 48px 0;
+}
+
+.box-outer{
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+  background-color: #3882F6;
+  border-radius: 8px;
+  padding: 36px 0px 36px 0px;
+  color: #F9FAF8;
+}
+
+.top-text
+{
+  font-weight: bold;
+}
+
+.botoom-text{
+  font-weight: 200;
+}
+
+.box-button{
+  background-color: #3882f6;
+  color: #F9FAF8;
+  border: 2px solid #F9FAF8;
+  padding: 8px 24px;
+  border-radius: 8px;
+  align-self: center;
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #F9FAF8;
+  padding: 48px;
 }
 
 a {
